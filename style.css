@@ -36,4 +36,17 @@ body{
 
 .progress-bar::before{
     content: attr(data-label);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0.5em;
+    bottom: 0.5em;
+    left: 0.5em;
+    /* multiplying with 1% to make it percent */
+    width: calc(var(--width,0) * 1%);
+    min-width: 1rem;
+    max-width: calc(100% -1em);
+    background-color: #069;
+    border-radius: 1em;
+    padding: 1em;
 }
