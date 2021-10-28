@@ -33,3 +33,7 @@ body{
     color: rgb(206, 206, 206);
     border-radius: 1.5em;
 }
+
+.progress-bar::before{
+    content: attr(data-label);
+}
