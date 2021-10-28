@@ -45,7 +45,7 @@ body{
     /* multiplying with 1% to make it percent */
     width: calc(var(--width,0) * 1%);
     min-width: 1rem;
-    max-width: calc(100% -1em);
+    max-width: calc(100% - 1em);
     background-color: #069;
     border-radius: 1em;
     padding: 1em;
